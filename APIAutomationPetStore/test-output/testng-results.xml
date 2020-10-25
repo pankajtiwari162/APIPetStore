@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="9099" started-at="2020-10-25T11:58:06 IST" finished-at="2020-10-25T11:58:15 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="9099" started-at="2020-10-25T11:58:06 IST" finished-at="2020-10-25T11:58:15 IST">
+      <class name="com.test.APIAutomationPetStore.tests.GetAllAvailablePets">
+        <test-method status="PASS" signature="initilization()[pri:0, instance:com.test.APIAutomationPetStore.tests.GetAllAvailablePets@646d64ab]" name="initilization" is-config="true" duration-ms="4" started-at="2020-10-25T11:58:06 IST" finished-at="2020-10-25T11:58:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilization -->
+        <test-method status="PASS" signature="getAllAvailablePets()[pri:0, instance:com.test.APIAutomationPetStore.tests.GetAllAvailablePets@646d64ab]" name="getAllAvailablePets" duration-ms="3577" started-at="2020-10-25T11:58:06 IST" finished-at="2020-10-25T11:58:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllAvailablePets -->
+      </class> <!-- com.test.APIAutomationPetStore.tests.GetAllAvailablePets -->
+      <class name="com.test.APIAutomationPetStore.tests.PetStorePost">
+        <test-method status="PASS" signature="initlization()[pri:0, instance:com.test.APIAutomationPetStore.tests.PetStorePost@59e5ddf]" name="initlization" is-config="true" duration-ms="1" started-at="2020-10-25T11:58:09 IST" finished-at="2020-10-25T11:58:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initlization -->
+        <test-method status="PASS" signature="postNewPet()[pri:0, instance:com.test.APIAutomationPetStore.tests.PetStorePost@59e5ddf]" name="postNewPet" duration-ms="1885" started-at="2020-10-25T11:58:09 IST" finished-at="2020-10-25T11:58:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postNewPet -->
+      </class> <!-- com.test.APIAutomationPetStore.tests.PetStorePost -->
+      <class name="com.test.APIAutomationPetStore.tests.PetStoreDelete">
+        <test-method status="PASS" signature="intilization()[pri:0, instance:com.test.APIAutomationPetStore.tests.PetStoreDelete@e320068]" name="intilization" is-config="true" duration-ms="0" started-at="2020-10-25T11:58:13 IST" finished-at="2020-10-25T11:58:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intilization -->
+        <test-method status="PASS" signature="deletePet()[pri:0, instance:com.test.APIAutomationPetStore.tests.PetStoreDelete@e320068]" name="deletePet" duration-ms="1986" started-at="2020-10-25T11:58:13 IST" finished-at="2020-10-25T11:58:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePet -->
+      </class> <!-- com.test.APIAutomationPetStore.tests.PetStoreDelete -->
+      <class name="com.test.APIAutomationPetStore.tests.PetStorePut">
+        <test-method status="PASS" signature="initilization()[pri:0, instance:com.test.APIAutomationPetStore.tests.PetStorePut@536aaa8d]" name="initilization" is-config="true" duration-ms="1" started-at="2020-10-25T11:58:11 IST" finished-at="2020-10-25T11:58:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilization -->
+        <test-method status="PASS" signature="updateStatus()[pri:0, instance:com.test.APIAutomationPetStore.tests.PetStorePut@536aaa8d]" name="updateStatus" duration-ms="1588" started-at="2020-10-25T11:58:11 IST" finished-at="2020-10-25T11:58:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateStatus -->
+      </class> <!-- com.test.APIAutomationPetStore.tests.PetStorePut -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

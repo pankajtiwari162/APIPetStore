@@ -1,0 +1,18 @@
+{
+    "id": 4042,
+    "category": {
+        "id": 13,
+        "name": "xyz"
+    },
+    "name": "abc",
+    "photoUrls": [
+        "cgh"
+    ],
+    "tags": [
+        {
+            "id": 22,
+            "name": "yty"
+        }
+    ],
+    "status": "available"
+}

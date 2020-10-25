@@ -1,0 +1,18 @@
+{
+    "id": 4042,
+    "category": {
+        "id": 12,
+        "name": "Pankaj"
+    },
+    "name": "abc",
+    "photoUrls": [
+        "cgh"
+    ],
+    "tags": [
+        {
+            "id": 21,
+            "name": "yty"
+        }
+    ],
+    "status": "sold"
+}
