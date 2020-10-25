@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.test.APIAutomationPetStore.tests.PetStorePost">
+      <class name="com.test.APIAutomationPetStore.tests.PetStorePut">
         <methods>
-          <include name="initlization"/>
-          <include name="postNewPet"/>
+          <include name="initilization"/>
+          <include name="updateStatus"/>
         </methods>
-      </class> <!-- com.test.APIAutomationPetStore.tests.PetStorePost -->
+      </class> <!-- com.test.APIAutomationPetStore.tests.PetStorePut -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
