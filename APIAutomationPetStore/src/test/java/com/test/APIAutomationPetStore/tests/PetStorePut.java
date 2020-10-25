@@ -8,10 +8,12 @@ import java.io.FileReader;
 
 import org.json.JSONObject;
 import org.json.JSONTokener;
+import org.junit.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.test.APIAutomationPetStore.utils.BaseClass;
+import com.test.APIAutomationPetStore.utils.TestUtil;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
@@ -47,8 +49,11 @@ public class PetStorePut extends BaseClass {
 				.when()
 				.put("/pet");
 
-		System.out.println(response.statusCode());
-		System.out.println(response.asString());
+	Assert.assertEquals(TestUtil.RESPONSE_CODE_200, response.getStatusCode());
+		
+		
+		
+	
 	}
 
 }
